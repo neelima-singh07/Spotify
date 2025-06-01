@@ -1,0 +1,474 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+body{
+    /* background-color: black;
+    color:white; */
+}
+
+.left{
+    width:25vw;
+    height:800px;
+    padding:10px;
+    
+}
+.right{
+    width:75vw;
+}
+.home{
+    
+    width: 14px;
+    height: 14px;
+      
+      
+}
+.search{
+    width: 14px;
+    height: 14px;
+
+}
+ li{
+    list-style: none;
+}
+/* .home{
+    margin-left:20px;
+}
+.search{
+    margin-left:20px;
+} */
+.home-div{
+    padding:10px;
+
+}
+.search-div{
+    padding:10px;
+
+}
+.library{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10px;
+    gap: 20px; /* controls spacing between children */
+    height: 450px; /* optional */
+}
+.spotify-logo{
+    margin-top: 8px;
+}
+.head{
+    font-size: medium;
+    margin-top:25px;
+    margin-left:10px;
+    margin-bottom:80px;
+}
+.box1{
+    height:70px;
+}
+.card1 button {
+      display: flex;
+      align-items:center;
+      padding: 10px 20px;
+      background-color: white;
+      color: black;
+      font-weight: bold;
+      border: none;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+      margin-bottom: 20px;
+      font-size: small;
+      
+}
+
+.card2 button {
+      padding: 10px 20px;
+      background-color: white;
+      color: black;
+      font-weight: bold;
+      border: none;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+
+}
+.lib-box{
+    padding:14px;
+    justify-content: space-evenly;
+    
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    
+}
+.spotify-written{
+    margin-top: 12px;
+    margin-right:60px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav {
+    padding:10px;
+}
+.buttons{
+    margin-top:8px;
+}
+.login{
+    padding: 10px 20px;
+      background-color: white;
+      color: black;
+      font-weight: bold;
+      border: none;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+      margin-right:15px;
+
+}
+.sign-up{
+    padding: 10px 20px;
+      background-color: white;
+      color: black;
+      font-weight: bold;
+      border: none;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: transform 0.2s ease;
+      margin-right:10px;
+
+}
+.written-spotify-playlist{
+    font-size: larger;
+    margin-left:12px;
+}
+.music{
+    margin-top:10px;
+}
+.spotify-playlist{
+    padding: 4px;
+}
+/* .espresso{
+    width:200px ;
+    height:200px;
+    border:2px solid red;
+    
+}
+.espresso img {
+    width:100%;
+    object-fit: contain;
+
+}
+.card-container{
+    margin-left:20px;
+    margin-top:20px;
+    padding:3px;
+    
+} */
+
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.espresso {
+  background-color: #181818;
+  border-radius: 10px;
+  padding: 15px;
+  width: 180px;
+  text-align: center;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.espresso:hover {
+  background-color: #282828;
+  cursor: pointer;
+}
+
+.img-espresso {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.espresso-written {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.sabrina {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #b3b3b3;
+}
+.blue {
+  background-color: #181818;
+  border-radius: 10px;
+  padding: 15px;
+  width: 180px;
+  text-align: center;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.blue:hover {
+  background-color: #282828;
+  cursor: pointer;
+}
+
+.img-blue {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.blue-written {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.yung {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+
+
+/* //aptt  */
+
+.apt {
+  background-color: #181818;
+  border-radius: 10px;
+  padding: 15px;
+  width: 180px;
+  text-align: center;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.apt:hover {
+  background-color: #282828;
+  cursor: pointer;
+}
+
+.img-apt {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.apt-written {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.Bruno {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+/* //lover */
+.lover {
+  background-color: #181818;
+  border-radius: 10px;
+  padding: 15px;
+  width: 180px;
+  text-align: center;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.lover:hover {
+  background-color: #282828;
+  cursor: pointer;
+}
+
+.img-lover {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.lover-written {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.Taylor {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+/* wanna */
+
+.wanna {
+  background-color: #181818;
+  border-radius: 10px;
+  padding: 15px;
+  width: 180px;
+  text-align: center;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.wanna:hover {
+  background-color: #282828;
+  cursor: pointer;
+}
+
+.img-wanna {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.wanna-written {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.arctic {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+/* havana */
+
+.havana {
+  background-color: #181818;
+  border-radius: 10px;
+  padding: 15px;
+  width: 180px;
+  text-align: center;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.havana:hover {
+  background-color: #282828;
+  cursor: pointer;
+}
+
+.img-havana {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.havana-written {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.camila {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+/* smile */
+
+.smile {
+  background-color: #181818;
+  border-radius: 10px;
+  padding: 15px;
+  width: 180px;
+  text-align: center;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.smile :hover {
+  background-color: #282828;
+  cursor: pointer;
+}
+
+.img-smile  {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.smile-written {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.bruno {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+/* senorita */
+
+.senorita {
+  background-color: #181818;
+  border-radius: 10px;
+  padding: 15px;
+  width: 180px;
+  text-align: center;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.senorita :hover {
+  background-color: #282828;
+  cursor: pointer;
+}
+
+.img-senorita  {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.senorita-written  {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.shawn {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+.playbar{
+  margin-top:30px;
+  margin-left:40px;
+  width:90%;
+  border-radius: 20px;
+  height:40px;
+  background-color: white;
+}  
+.btn{
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  
+
+}
+
